@@ -1,10 +1,8 @@
 import { combineReducers } from 'redux';
-import UsersReducer from './reducer_users';
-import AlbumsReducer from './reducer_albums';
+import TodosReducer from './reducer_todos';
 
 const rootReducer = combineReducers({
-  users: UsersReducer,
-  albums: AlbumsReducer
+  todos: TodosReducer
 });
 
 export default rootReducer;
